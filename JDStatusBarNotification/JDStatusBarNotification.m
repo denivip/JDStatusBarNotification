@@ -181,7 +181,7 @@ NSString *const JDStatusBarStyleDark    = @"JDStatusBarStyleDark";
     [self addStyleNamed:JDStatusBarStyleWarning
                 prepare:^JDStatusBarStyle *(JDStatusBarStyle *style) {
                     style.barColor = [UIColor colorWithRed:252.f/255.f green:184.f/255.f blue:66.f/255.f alpha:1.000];
-                    style.textColor = [UIColor darkGrayColor];
+                    style.textColor = [UIColor whiteColor];
                     style.progressBarColor = style.textColor;
                     return style;
                 }];
